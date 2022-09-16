@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    /* margin:0px;
+    padding:0px; */
+    scroll-behavior: smooth;
+}
+
+h1, h2{
+    text-align:center;
+    color:white;
+    font-family: 'Lora', serif;
+}
+h3{
+    position: relative;
+}
+
+#header{
+   
+    background: linear-gradient(90deg, rgba(11,241,6,1) 2%, rgba(0,0,0,1) 100%);
+    padding-top: 50px;
+    padding-bottom:50px;
+    margin-bottom:50px;
+}
+#main{
+    margin-top: 0;
+    padding-top: 0;
+    justify-content: center;
+    margin:auto;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+  
+}
+#main .info{
+    margin-top: 0;
+    width:45%;
+    display:inline-block;
+    
+    
+}
+#main .center{
+    margin-top: 0;
+    padding-top: 0;
+    position:relative;
+    width:1px;
+    height: 100%;
+    border-right: rgb(203, 201, 201) solid;
+    margin-left:10px;
+    margin-right:10px;
+  
+}
+.left h3::after {
+    content: "";
+    position: absolute;
+    top: 10px; 
+    height: 1px;
+    width: 30px;
+    background-color: #9e9e9e;
+    margin-left: 12px;
+  }
+  .right h3::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    height: 1px;
+    width: 30px;
+    background-color: #9e9e9e;
+    margin-left: -40px;
+  }
+  .dot-left {
+    position: absolute;
+    top: 6px;
+    right: -48px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #788f58;
+    z-index: 1;
+  }
+
+  .dot-right {
+    position: absolute;
+    top: 5px;
+    left: -47px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+     background-color: #788f58;
+    z-index: 1;
+  }
+#main .left{
+    float:center;
+    text-align: right;
+    margin-right: 30px;
+    height: 100%;
+
+}
+#main .right{
+    float:center;
+    margin-left: 30px;
+    height:100%;
+}
+/* span{
+    
+    align-items: center;
+    display:block;
+} */
+/* #s1, #s2, #s3, #s4, #s5{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    position:absolute;
+    background-color:green;
+}
+#s1{
+    top:25px;
+}
+#s2{ 
+    top:175px;
+    background-color:green;
+}
+
+#s3{ 
+   top:355px;
+}
+#s4{ 
+   top:205px;
+}
+#s5{ 
+   top:615px;
+}
+
+#a1, #a2, #a3, #a4, #a5{
+    height:2px;
+    width: 30px;
+    border-bottom: green dashed;
+    position:absolute;
+}
+#a1{
+    right:-26px;
+    width:60px;
+}
+#a2, #a3{
+    right:5px;
+}
+
+#a4, #a5{
+    left:4px;
+} */
+
+progress {
+    background: green;
+    width:150px;
+     }
+
+
+
+   
